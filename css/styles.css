@@ -127,6 +127,32 @@ h3 {
   width: 100%;
 } */
 
+/* Call to Action Section */
+
+#cta {
+  padding: 7% 15%;
+  background-color: #ff4c68;
+  text-align: center;
+}
+
+#cta h3 {
+  color: #fff;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+  margin-bottom: 3rem;
+}
+
+/* Footer Section */
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
 /* Media Queries */
 
 @media (max-width: 1028px) {
