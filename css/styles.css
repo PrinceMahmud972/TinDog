@@ -50,10 +50,6 @@ h3 {
   padding: 3% 15% 7%;
 }
 
-.title-image-section {
-  position: relative;
-}
-
 .title-image {
   position: absolute;
   height: 500px;
@@ -130,3 +126,19 @@ h3 {
 /* .pricing-button {
   width: 100%;
 } */
+
+/* Media Queries */
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-item {
+    padding: 3%;
+  }
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
